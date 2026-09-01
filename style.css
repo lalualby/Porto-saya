@@ -523,11 +523,7 @@ footer hr{
     nav{
         flex-direction: column;
         padding: 1rem 0;
-        justify-content: center;
-    }
-
-    .Logo{
-        width: 10px;
+        text-align: center;
     }
 
     /* hero */
@@ -642,13 +638,37 @@ footer hr{
 
     /* contact */
     #contact{
-        padding: 3rem;
+        padding: 0.5rem;
     }
 
     .container{
         flex-direction: column-reverse;
-        gap: 1rem;
-        
+        gap: 2rem;
+        padding: 0.5rem;
+    }
+
+    form{
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    iframe {
+        width: 100%;
+        margin: 0;  
+    }
+
+    .map{
+        padding: 1rem;
+    }
+
+    #project {
+        padding: 2rem;
+    }
+
+    #project h1 {
+        box-sizing: border-box;
+        font-size: 40px;
     }
 }
 
