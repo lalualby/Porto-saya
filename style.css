@@ -304,6 +304,8 @@ nav img{
     display: flex;
     flex-direction: column;
     background-color: #F8FAFC;
+    height: 350px;
+    width: 300px;
     padding: 1rem;
     border-radius: 30px;
     box-shadow: 0 4px 15px #2C3947;
@@ -517,7 +519,7 @@ footer hr{
 
 
 /* phone and tablet style */
-@media screen and (max-width:950px){
+@media screen and (max-width:1196px){
     nav{
         flex-direction: column;
         padding: 1rem 0;
@@ -623,13 +625,30 @@ footer hr{
 
     /* project style */
     #project{
-        padding: 1rem;
+        padding: 3rem;
         flex-direction: column;
     }
 
     .project-cont{
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .project-card{
+        width: 100%;
+        height: auto;
+        width: auto;
+    }
+
+    /* contact */
+    #contact{
+        padding: 3rem;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+        gap: 1rem;
+        
     }
 }
 
